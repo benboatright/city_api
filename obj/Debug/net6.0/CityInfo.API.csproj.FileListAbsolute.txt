@@ -35,3 +35,13 @@
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/obj/Debug/net6.0/CityInfo.API.pdb
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/obj/Debug/net6.0/CityInfo.API.genruntimeconfig.cache
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/obj/Debug/net6.0/ref/CityInfo.API.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.AspNetCore.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.Sinks.File.dll
