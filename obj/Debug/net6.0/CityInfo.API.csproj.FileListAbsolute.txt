@@ -1,11 +1,16 @@
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/appsettings.Development.json
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/appsettings.json
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/CityInfo.API
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/creating-the-api-and-returning-resources-slides.pdf
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/CityInfo.API.deps.json
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/CityInfo.API.runtimeconfig.json
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/CityInfo.API.dll
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/CityInfo.API.pdb
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -30,4 +35,3 @@
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/obj/Debug/net6.0/CityInfo.API.pdb
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/obj/Debug/net6.0/CityInfo.API.genruntimeconfig.cache
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/obj/Debug/net6.0/ref/CityInfo.API.dll
-/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/creating-the-api-and-returning-resources-slides.pdf

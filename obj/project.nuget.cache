@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "mQ3KFEmklBajTWzS5OtImfM18cMBxhMzcXQgYWc65nHgo42Bs3K2tpIEigUM0b7jTKAx9VMSDgBGcGsk96udPA==",
+  "dgSpecHash": "fztGnjCAGvJ2lpUc8PfC/aC7j56Zy+8man7RQK+KC7RHQrqLBfkAYLNKz3q3ncBY0u5IbUu1FaxctstdOrqLqg==",
   "success": true,
   "projectFilePath": "/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/CityInfo.API.csproj",
   "expectedPackageFiles": [
+    "/Users/benjaminboatright/.nuget/packages/microsoft.aspnetcore.jsonpatch/7.0.1/microsoft.aspnetcore.jsonpatch.7.0.1.nupkg.sha512",
+    "/Users/benjaminboatright/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.12/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.12.nupkg.sha512",
+    "/Users/benjaminboatright/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/benjaminboatright/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/benjaminboatright/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/benjaminboatright/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/benjaminboatright/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/Users/benjaminboatright/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/benjaminboatright/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/benjaminboatright/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
