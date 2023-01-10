@@ -45,3 +45,4 @@
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.Sinks.Console.dll
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
 /Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/Serilog.Sinks.File.dll
+/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/bin/Debug/net6.0/appSettings.Production.json
