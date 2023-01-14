@@ -10,8 +10,11 @@ namespace CityInfo.API.Controllers
 {
 	[ApiController]
 	//[Authorize]
-	[Route("api/cities")]
-	public class CitiesController : ControllerBase
+	[ApiVersion("1.0")]
+    [ApiVersion("2.0")]
+    [Route("api/v{version:apiVersion}/cities")]
+    //[Route("api/cities")]
+    public class CitiesController : ControllerBase
 	{
 		private readonly ICityInfoRepository _cityInfoRepository;
 		private readonly IMapper _mapper;
@@ -39,6 +42,12 @@ namespace CityInfo.API.Controllers
 			return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDto>>(cityEntities));
         }
 
+		/// <summary>
+		/// Get a city by id
+		/// </summary>
+		/// <param name="id">The id of the city to get</param>
+		/// <param name="includePointsOfInterest">Whether or not to include the points of interest</param>
+		/// <returns>An IActionResult</returns>
 		[HttpGet("{id}")]
 		public async Task<IActionResult> GetCity(int id, bool includePointsOfInterest=false)
 		{
