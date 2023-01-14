@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RLsTnhfdxyNGCYYPkxY4lhNJ/bmNZsdGS/A38b62+BtzrftyW3apXxKiDue7XpEW7lTUp7lnVRje9sPXXHteMQ==",
+  "dgSpecHash": "MBsHLbQxTBooVOH8w5XJf68YFIct7VtvST7Sd0m0qX/+cFtchkQUqVUnBe0ONFrDnTV7rqpKLX/LWEoFTiMkXw==",
   "success": true,
   "projectFilePath": "/Users/benjaminboatright/Desktop/c_sharp_practice/Projects/CityInfo.API/CityInfo.API.csproj",
   "expectedPackageFiles": [
+    "/Users/benjaminboatright/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/benjaminboatright/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/benjaminboatright/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/benjaminboatright/.nuget/packages/microsoft.aspnetcore.jsonpatch/7.0.1/microsoft.aspnetcore.jsonpatch.7.0.1.nupkg.sha512",
     "/Users/benjaminboatright/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.12/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.12.nupkg.sha512",

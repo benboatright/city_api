@@ -19,6 +19,8 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,6 +36,9 @@
     <None Remove="DbContexts\" />
     <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
     <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="AutoMapper" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -41,6 +46,7 @@
     <Folder Include="Services\" />
     <Folder Include="Entities\" />
     <Folder Include="DbContexts\" />
+    <Folder Include="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="creating-the-api-and-returning-resources-slides.pdf">
