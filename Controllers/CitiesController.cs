@@ -20,12 +20,14 @@ namespace CityInfo.API.Controllers
 		private readonly IMapper _mapper;
 		const int maxCitiesPageSize = 20;
 
+		// Inject the contract
 		public CitiesController(ICityInfoRepository cityInfoRepository, IMapper mapper)
 		{
             _cityInfoRepository = cityInfoRepository ?? throw new ArgumentNullException(nameof(cityInfoRepository));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
+		//Get All Cities
 		[HttpGet]
 		public async Task<ActionResult<IEnumerable<CityWithoutPointsOfInterestDto>>> GetCities(
 			string? name, string? searchQuery, int pageNumber = 1, int pageSize = 10)
@@ -35,20 +37,16 @@ namespace CityInfo.API.Controllers
 				pageSize = maxCitiesPageSize;
 			}
 
+			// call the GetCitiesAsync Method to get the enumerables
 			var (cityEntities, paginationMetaData) = await _cityInfoRepository.GetCitiesAsync(name, searchQuery, pageNumber, pageSize);
 
 			Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(paginationMetaData));
 
+			// return the dtos by mapping the cityEntities to dtos
 			return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDto>>(cityEntities));
         }
 
-		/// <summary>
-		/// Get a city by id
-		/// </summary>
-		/// <param name="id">The id of the city to get</param>
-		/// <param name="includePointsOfInterest">Whether or not to include the points of interest</param>
-		/// <returns>An IActionResult</returns>
-		/// <response code="200">Returns the requested city</response>
+		// Get Specific City
 		[HttpGet("{id}")]
 		[ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
